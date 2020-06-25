@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website</title>
+  <link rel="stylesheet" type="text/css" href="boot/css/bootstrap.min.css">
+  <script src="boot/js/jquery.js"></script>
+  <script src="jq/jquery-3.1.1.min.js"></script>
+  <script src="boot/js/bootstrap.min.js"></script>
+  <script>
+  $(document).ready(function(){
+   $("#flip").click(function(){
+     $("#panel").slideDown(5000);
+  });
+  $("#stop").click(function(){
+    $("#panel").stop();
+  });
+});
+  </script>
+</head>
+<body>
+<div class="container-fluid" style="background-color: lavender;"> 
+  <div class="container-fluid navbar-fixed-top" style="background-color:rgba(254, 254, 254, 0.8);">
+    <div class="row">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <div class="col-md-3">
+            <div>
+              <a href="website.html"><h1 style="font-size: 40px;margin-left: 100px;"><b>SMAN3</b>JAMBI</h1></a>
+            </div>
+          </div>
+          <br>
+          <div class="col-md-9">
+            <div>
+              <ul class="nav navbar-nav navbar-right" style="font-size: 15px;">
+                <li class="active"><a href="home.html">Home</a></li>
+                <li><a href="#profil">Profile</a></li>
+                <li><a href="#gtk">GTK</a></li>
+                 <li><a href="#fitur">Features</a></li>
+                <li><a href="#galeri">Gallery</a></li>
+                <li><a href="#kontak">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+            <!--end of header-->	
+<div class="container" style="padding-top: 120px;">
+  <button id="stop">Stop sliding</button>
+  <div id="flip"><h1>Berbagai fasilitas dimiliki SMAN 3 Jambi untuk menunjang kegiatan belajar mengajar. Fasilitas tersebut antara lain:</h1>
+  </div>
+  <div id="panel">
+  <h2>Kelas</h2>
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <ol>
+        <li>Kelas Biologi</li>
+        <li>Ruang Kelas</li>
+        <li>Kelas(sosial)</li>
+        <li>Kelas(Ilmu Komputer</li>
+      </ol>
+    </div>
+  </div>
+  <h2>Perpustakaan</h2>
+  <h2>Laboratorium</h2>
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <ol>
+        <li>Laboratorium Biologi</li>
+        <li>Laboratorium Fisika</li>
+        <li>Laboratorium Kimia</li>
+        <li>Laboratorium Komputer</li>
+        <li>Laboratorium Bahasa</li>
+      </ol>
+    </div>
+   </div>
+  <h2>Lapangan Upacara</h2>
+    <h2>Ruang Osis</h2>
+    <h2>Ruang band</h2>
+    <h2>Kantor Kepala Sekolah</h2>
+    <h2>Kantor Wakil Kepala Sekolah</h2>
+    <h2>Kantin Kejujuran</h2>
+    <h2>Lapangan basket</h2>
+    <h2>Ruang Tata Usaha</h2>
+    <h2>Ruang BK</h2>
+    <h2>Lobby</h2>
+  </div>
+  <div id="post" class="section-padding">
+  <div class="container">
+    <h2>Video Profile</h2>
+    <p>Video Profil SMA N 3 Kota Jambi 2016</p><iframe width="560" height="315" src="https://www.youtube.com/embed/u-cDxNi-RaY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
+
+</div>
+
+            <!--Footer-->
+            <div class="container-fluid" id="kontak" style="background-color: black;">
+  <div class="container"><br><br>
+    <center>
+      <p style="font-size: 20px;">SMA NEGERI 3 KOTA JAMBI
+        <br>DINAS PENDIDIKAN
+        <br>PROVINSI JAMBI
+        <br>&copyright SMAN 3 Jambi</p>
+    </center>
+    <br>
+  </div>  
+</div>
+</body>
+</html>
